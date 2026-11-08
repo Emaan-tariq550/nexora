@@ -1,0 +1,728 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="NEXORA is your intelligent workspace for smarter productivity and collaboration.">
+
+    <title>NEXORA — Work Beyond Limits</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">N</span>
+                NEXORA<span class="logo-dot">.</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Open navigation menu"
+                aria-expanded="false"
+                aria-controls="navLinks">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#solutions" class="nav-link">Solutions</a>
+                <a href="#about" class="nav-link">About</a>
+
+                <a href="#contact" class="nav-cta mobile-cta">
+                    Get Started <i data-lucide="arrow-up-right"></i>
+                </a>
+            </div>
+
+            <a href="#contact" class="nav-cta desktop-cta">
+                Get Started <i data-lucide="arrow-up-right"></i>
+            </a>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section-padding" id="home">
+
+            <div class="hero-glow glow-one"></div>
+            <div class="hero-glow glow-two"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <div class="announcement">
+                        <span class="announcement-dot"></span>
+                        THE FUTURE OF PRODUCTIVITY
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+
+                    <h1>
+                        Work Smarter.<br>
+                        Create <span class="gradient-text">Beyond Limits.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        One intelligent workspace to organize your ideas,
+                        simplify your workflow, and turn ambitious goals
+                        into extraordinary results.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#features" class="btn btn-primary">
+                            Start Exploring
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+
+                        <a href="#solutions" class="btn btn-secondary">
+                            <i data-lucide="play-circle"></i>
+                            Discover More
+                        </a>
+                    </div>
+
+                    <div class="hero-trust">
+                        <div class="avatar-stack">
+                            <span>A</span>
+                            <span>M</span>
+                            <span>S</span>
+                            <span>+</span>
+                        </div>
+
+                        <div>
+                            <strong>Designed for ambitious minds</strong>
+                            <p>Ideas deserve better spaces.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- Dashboard Preview -->
+                <div class="hero-visual">
+
+                    <div class="visual-glow"></div>
+
+                    <div class="dashboard">
+
+                        <div class="dashboard-topbar">
+                            <div class="window-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+
+                            <span class="dashboard-label">NEXORA WORKSPACE</span>
+
+                            <i data-lucide="more-horizontal"></i>
+                        </div>
+
+                        <div class="dashboard-body">
+
+                            <aside class="dashboard-sidebar">
+                                <div class="mini-logo">N</div>
+
+                                <div class="side-icon selected">
+                                    <i data-lucide="layout-dashboard"></i>
+                                </div>
+
+                                <div class="side-icon">
+                                    <i data-lucide="folder"></i>
+                                </div>
+
+                                <div class="side-icon">
+                                    <i data-lucide="calendar-days"></i>
+                                </div>
+
+                                <div class="side-icon">
+                                    <i data-lucide="chart-no-axes-column"></i>
+                                </div>
+
+                                <div class="side-icon">
+                                    <i data-lucide="settings"></i>
+                                </div>
+                            </aside>
+
+                            <div class="dashboard-content">
+
+                                <div class="dashboard-heading">
+                                    <div>
+                                        <span class="small-muted">MONDAY, YOUR WORKSPACE</span>
+                                        <h3>Good morning, Alex <span>✦</span></h3>
+                                        <p>Let's make today productive.</p>
+                                    </div>
+
+                                    <div class="profile-avatar">A</div>
+                                </div>
+
+                                <div class="overview-grid">
+
+                                    <div class="overview-card">
+                                        <div class="overview-icon purple">
+                                            <i data-lucide="check-circle-2"></i>
+                                        </div>
+                                        <span>Completed tasks</span>
+                                        <h2>24</h2>
+                                        <small class="positive">↑ 12% this week</small>
+                                    </div>
+
+                                    <div class="overview-card">
+                                        <div class="overview-icon blue">
+                                            <i data-lucide="clock-3"></i>
+                                        </div>
+                                        <span>Focus hours</span>
+                                        <h2>18.5</h2>
+                                        <small class="positive">↑ 8% this week</small>
+                                    </div>
+
+                                </div>
+
+                                <div class="task-panel">
+                                    <div class="panel-heading">
+                                        <h4>Recent Projects</h4>
+                                        <span>View all ↗</span>
+                                    </div>
+
+                                    <div class="task-row">
+                                        <div class="task-symbol violet">
+                                            <i data-lucide="layers"></i>
+                                        </div>
+
+                                        <div class="task-info">
+                                            <strong>Website Redesign</strong>
+                                            <span>Design & Development</span>
+                                        </div>
+
+                                        <div class="progress-info">
+                                            <strong>85%</strong>
+                                            <div class="progress-bar">
+                                                <span style="width:85%"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="task-row">
+                                        <div class="task-symbol cyan">
+                                            <i data-lucide="rocket"></i>
+                                        </div>
+
+                                        <div class="task-info">
+                                            <strong>Product Launch</strong>
+                                            <span>Marketing Strategy</span>
+                                        </div>
+
+                                        <div class="progress-info">
+                                            <strong>60%</strong>
+                                            <div class="progress-bar">
+                                                <span style="width:60%"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="task-row">
+                                        <div class="task-symbol orange">
+                                            <i data-lucide="lightbulb"></i>
+                                        </div>
+
+                                        <div class="task-info">
+                                            <strong>Creative Research</strong>
+                                            <span>Ideas & Planning</span>
+                                        </div>
+
+                                        <div class="progress-info">
+                                            <strong>40%</strong>
+                                            <div class="progress-bar">
+                                                <span style="width:40%"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="floating-card">
+                        <div class="floating-icon">
+                            <i data-lucide="zap"></i>
+                        </div>
+                        <div>
+                            <strong>Great progress!</strong>
+                            <p>Your productivity is up.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Trusted Brands -->
+        <section class="trusted section-padding">
+            <div class="container">
+
+                <p class="trusted-title">
+                    BUILT FOR PEOPLE WHO THINK DIFFERENTLY
+                </p>
+
+                <div class="brand-list">
+                    <span>◈ VERTEX</span>
+                    <span>✦ ORBIT</span>
+                    <span>◉ NEXIFY</span>
+                    <span>⬡ LUMORA</span>
+                    <span>◇ AETHER</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Features -->
+        <section class="features section-padding" id="features">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">WHAT MAKES US DIFFERENT</span>
+
+                    <h2>
+                        Everything you need.<br>
+                        <span class="gradient-text">Nothing you don't.</span>
+                    </h2>
+
+                    <p>
+                        Powerful tools, thoughtfully designed to help
+                        you focus on what truly matters.
+                    </p>
+                </div>
+
+
+                <div class="features-grid">
+
+                    <article class="feature-card">
+                        <div class="feature-icon purple-bg">
+                            <i data-lucide="workflow"></i>
+                        </div>
+
+                        <h3>Smart Workflow</h3>
+
+                        <p>
+                            Bring your tasks, ideas, and projects together
+                            in one organized workspace.
+                        </p>
+
+                        <a href="#solutions" class="feature-link">
+                            Explore feature <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon blue-bg">
+                            <i data-lucide="users"></i>
+                        </div>
+
+                        <h3>Real-Time Collaboration</h3>
+
+                        <p>
+                            Connect with your team, share ideas, and
+                            make progress together effortlessly.
+                        </p>
+
+                        <a href="#solutions" class="feature-link">
+                            Explore feature <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon cyan-bg">
+                            <i data-lucide="chart-no-axes-combined"></i>
+                        </div>
+
+                        <h3>Intelligent Analytics</h3>
+
+                        <p>
+                            Transform your activity into meaningful
+                            insights and smarter decisions.
+                        </p>
+
+                        <a href="#solutions" class="feature-link">
+                            Explore feature <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+
+                    <article class="feature-card">
+                        <div class="feature-icon orange-bg">
+                            <i data-lucide="shield-check"></i>
+                        </div>
+
+                        <h3>Secure Workspace</h3>
+
+                        <p>
+                            Keep your projects and important information
+                            organized with security in mind.
+                        </p>
+
+                        <a href="#solutions" class="feature-link">
+                            Explore feature <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Product Showcase -->
+        <section class="showcase section-padding" id="solutions">
+
+            <div class="container showcase-container">
+
+                <div class="showcase-content">
+
+                    <span class="eyebrow">YOUR SPACE. YOUR RULES.</span>
+
+                    <h2>
+                        Make room for
+                        <span class="gradient-text">great ideas.</span>
+                    </h2>
+
+                    <p>
+                        A clear view of your priorities makes every
+                        decision easier. Bring your projects together
+                        and move forward with confidence.
+                    </p>
+
+                    <div class="showcase-points">
+
+                        <div>
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Everything organized in one place</span>
+                        </div>
+
+                        <div>
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Track your progress with clarity</span>
+                        </div>
+
+                        <div>
+                            <i data-lucide="check-circle-2"></i>
+                            <span>Stay focused on your priorities</span>
+                        </div>
+
+                    </div>
+
+                    <a href="#contact" class="btn btn-primary">
+                        Explore Workspace
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                </div>
+
+
+                <div class="showcase-visual">
+
+                    <div class="analytics-card">
+
+                        <div class="analytics-header">
+                            <div>
+                                <span>YOUR PERFORMANCE</span>
+                                <h3>Weekly Overview</h3>
+                            </div>
+
+                            <span class="period">This week⌄</span>
+                        </div>
+
+                        <div class="analytics-number">
+                            <strong>86.4%</strong>
+                            <span>↗ 14.8%</span>
+                        </div>
+
+                        <p class="analytics-caption">
+                            Overall productivity score
+                        </p>
+
+                        <div class="chart">
+
+                            <div class="chart-guides">
+                                <span>100%</span>
+                                <span>75%</span>
+                                <span>50%</span>
+                                <span>25%</span>
+                            </div>
+
+                            <div class="chart-bars">
+                                <div class="chart-column">
+                                    <span style="height:45%"></span>
+                                    <small>MON</small>
+                                </div>
+                                <div class="chart-column">
+                                    <span style="height:68%"></span>
+                                    <small>TUE</small>
+                                </div>
+                                <div class="chart-column">
+                                    <span style="height:55%"></span>
+                                    <small>WED</small>
+                                </div>
+                                <div class="chart-column">
+                                    <span style="height:85%"></span>
+                                    <small>THU</small>
+                                </div>
+                                <div class="chart-column">
+                                    <span style="height:73%"></span>
+                                    <small>FRI</small>
+                                </div>
+                                <div class="chart-column">
+                                    <span style="height:95%"></span>
+                                    <small>SAT</small>
+                                </div>
+                                <div class="chart-column">
+                                    <span style="height:62%"></span>
+                                    <small>SUN</small>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="chart-footer">
+                            <span><i></i> Productivity</span>
+                            <span>Weekly performance</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Statistics -->
+        <section class="stats section-padding" id="about">
+
+            <div class="container stats-grid">
+
+                <div class="stat-item">
+                    <h2>10K<span>+</span></h2>
+                    <p>Active Users</p>
+                </div>
+
+                <div class="stat-item">
+                    <h2>98<span>%</span></h2>
+                    <p>Satisfaction</p>
+                </div>
+
+                <div class="stat-item">
+                    <h2>24<span>/7</span></h2>
+                    <p>Availability</p>
+                </div>
+
+                <div class="stat-item">
+                    <h2>50K<span>+</span></h2>
+                    <p>Tasks Completed</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Testimonials -->
+        <section class="testimonials section-padding">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">PEOPLE LOVE NEXORA</span>
+
+                    <h2>
+                        Good work speaks.<br>
+                        <span class="gradient-text">Great work gets shared.</span>
+                    </h2>
+
+                    <p>
+                        Illustrative feedback from our fictional
+                        NEXORA community.
+                    </p>
+                </div>
+
+
+                <div class="testimonial-grid">
+
+                    <article class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            "NEXORA brings clarity to my everyday work.
+                            Everything feels organized and effortless."
+                        </p>
+
+                        <div class="testimonial-user">
+                            <div class="user-avatar avatar-one">S</div>
+                            <div>
+                                <strong>Sarah Mitchell</strong>
+                                <span>Creative Designer</span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="testimonial-card featured-testimonial">
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            "The experience is beautifully simple.
+                            It helps our team stay focused and
+                            move forward with confidence."
+                        </p>
+
+                        <div class="testimonial-user">
+                            <div class="user-avatar avatar-two">J</div>
+                            <div>
+                                <strong>James Carter</strong>
+                                <span>Product Manager</span>
+                            </div>
+                        </div>
+                    </article>
+
+
+                    <article class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+
+                        <p>
+                            "A refreshing workspace that makes
+                            managing multiple projects feel
+                            much more manageable."
+                        </p>
+
+                        <div class="testimonial-user">
+                            <div class="user-avatar avatar-three">E</div>
+                            <div>
+                                <strong>Emily Parker</strong>
+                                <span>Entrepreneur</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Final CTA -->
+        <section class="cta-section section-padding" id="contact">
+
+            <div class="container">
+
+                <div class="cta-card">
+
+                    <div class="cta-glow"></div>
+
+                    <span class="eyebrow">READY FOR WHAT'S NEXT?</span>
+
+                    <h2>
+                        Your next big idea<br>
+                        starts <span>here.</span>
+                    </h2>
+
+                    <p>
+                        Make your ideas happen. Build better habits.
+                        Create something extraordinary.
+                    </p>
+
+                    <a href="mailto:hello@nexora.example" class="btn cta-button">
+                        Let's Get Started
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-content">
+
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-icon">N</span>
+                        NEXORA<span class="logo-dot">.</span>
+                    </a>
+
+                    <p>
+                        A smarter space for ambitious minds.
+                        Create, collaborate, and move beyond limits.
+                    </p>
+                </div>
+
+
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <a href="#home">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#solutions">Solutions</a>
+                </div>
+
+
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#home">Our Vision</a>
+                </div>
+
+
+                <div class="footer-column">
+                    <h4>Connect</h4>
+                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+                    <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-bottom">
+                <p>© <span id="currentYear"></span> NEXORA. All rights reserved.</p>
+                <p>Designed with intention. Built for possibilities.</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
